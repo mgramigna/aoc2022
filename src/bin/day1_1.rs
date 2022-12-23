@@ -1,5 +1,5 @@
 fn main() {
-    let calories_input = include_str!("../inputs/1_1.txt");
+    let calories_input = include_str!("../inputs/day1.txt");
 
     let groups: Vec<&str> = calories_input.trim_end().split("\n\n").collect();
 
