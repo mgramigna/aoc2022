@@ -1,4 +1,4 @@
-fn has_contained_interval(assignment: &str) -> bool {
+fn has_overlapping_interval(assignment: &str) -> bool {
     let sections: Vec<&str> = assignment.split(",").collect();
 
     let ranges: Vec<(usize, usize)> = sections
@@ -16,15 +16,27 @@ fn has_contained_interval(assignment: &str) -> bool {
     let range_a = ranges[0];
     let range_b = ranges[1];
 
-    if range_a.1 == range_b.1 {
+    if range_a.0 == range_b.0 {
         return true;
     }
 
-    if range_a.1 > range_b.1 {
-        return range_a.0 <= range_b.0;
+    if range_a.0 < range_b.0 {
+        if range_a.1 >= range_b.1 {
+            return true;
+        }
+
+        return range_a.1 >= range_b.0 && range_a.1 <= range_b.1;
     }
 
-    return range_b.0 <= range_a.0;
+    if range_b.0 < range_a.0 {
+        if range_b.1 >= range_a.1 {
+            return true;
+        }
+
+        return range_b.1 >= range_a.0 && range_b.1 <= range_a.1;
+    }
+
+    unreachable!();
 }
 
 fn main() {
@@ -32,7 +44,7 @@ fn main() {
 
     let count: usize = assignments
         .iter()
-        .filter(|a| has_contained_interval(a))
+        .filter(|a| has_overlapping_interval(a))
         .count();
 
     println!("{:?}", count);
