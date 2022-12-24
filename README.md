@@ -14,3 +14,5 @@ Solutions:
 - Day 4
   - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day4_1.rs)
   - [Part 2](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day4_2.rs)
+- Day 5
+  - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day5_1.rs)
