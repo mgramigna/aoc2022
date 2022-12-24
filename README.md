@@ -8,3 +8,5 @@ Solutions:
 - Day 2
   - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day2_1.rs)
   - [Part 2](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day2_2.rs)
+- Day 3
+  - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day3_1.rs)
