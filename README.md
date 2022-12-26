@@ -28,4 +28,6 @@ Solutions:
   - [Part 2](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day8_2.rs)
 - Day 9
   - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day9_1.rs)
-  - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day9_2.rs)
+  - [Part 2](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day9_2.rs)
+- Day 10
+  - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day10_1.rs)
