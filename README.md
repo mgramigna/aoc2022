@@ -32,3 +32,5 @@ Solutions:
 - Day 10
   - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day10_1.rs)
   - [Part 2](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day10_2.rs)
+- Day 11
+  - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day11_1.rs)
