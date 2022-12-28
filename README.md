@@ -37,3 +37,4 @@ Solutions:
   - [Part 2](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day11_2.rs)
 - Day 12
   - [Part 1](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day12_1.rs)
+  - [Part 2](https://github.com/mgramigna/aoc2022/blob/master/src/bin/day12_2.rs)
