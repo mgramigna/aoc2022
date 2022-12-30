@@ -145,7 +145,7 @@ impl Cave {
 }
 
 fn main() {
-    let input = include_str!("../tests/day14.txt");
+    let input = include_str!("../inputs/day14.txt");
 
     let lines: Vec<Vec<Coord>> = input
         .lines()
